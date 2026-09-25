@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./profile-banner.png" alt="Divahar Saravanan GitHub Banner" width="100%">
+</p>
+
 <h1 align="center">Hi 👋, I'm Divahar Saravanan</h1>
 
 <h3 align="center">
