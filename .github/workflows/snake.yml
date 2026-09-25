@@ -19,12 +19,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -34,6 +32,5 @@ jobs:
         with:
           build_dir: dist
           target_branch: output
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
